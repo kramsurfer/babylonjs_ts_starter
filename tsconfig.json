@@ -9,7 +9,7 @@
     "lib": [
       "dom",
       "es6"
-    ],
+    ],"types": [ "" ],
     "rootDir": "src"
   }
 }
