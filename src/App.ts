@@ -5,7 +5,7 @@ import "./App.css";
 
 import { Engine, Scene, ArcRotateCamera} from "@babylonjs/core";
 import { Vector3, HemisphericLight, Mesh, MeshBuilder } from "@babylonjs/core";
-import {Primary} from "./scenes/Primary";
+import {SceneOne} from "./scenes/SceneOne";
 
 class App {
     constructor() {
@@ -19,7 +19,7 @@ class App {
 
         // initialize babylon scene and engine
         var engine = new Engine(canvas, true);
-        var currentScene = new Primary( engine, canvas )
+        var currentScene = new SceneOne( engine, canvas )
 
         // run the main render loop
         engine.runRenderLoop(() => {
